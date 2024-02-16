@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    border:none;
+    background-color: black;
+}
+
+.logo img{
+    width: 32px;
+    height: 32px;
+}
+
+.one li a{
+    position: absolute;
+    top: 20px;
+    right: 1350px;
+    list-style: none;
+    color: white;
+}
+
+.two{
+    position: fixed;
+    right: 0%;
+    left: 1260px;
+    top: 20px;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    color: white;
+}
+
+.two li a{
+    color: white;
+}
+
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.logo p{
+    color: slategray;
+}
+
+.hero-section img{
+    width: 89rem;
+    height: 40rem;
+}
+
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.panel .sub-pane-section{
+ display: flex;
+ justify-content: start;
+ flex-direction: column;
+}
+
+.sub-pane-section h1{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-pane-section h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+
+}
+
+.sub-pane-section p{
+    color: slategray;
+    margin-top: 3px;
+}
+
+.sub-pane-section a{
+    color: blue;
+    margin-top: 3px;
+}
+
+.sub-heading{
+    margin-top: 70px;
+}
+
+.sub-heading-1{
+    margin-top: 70px;
+}
+
+
+.sub-heading-2{
+    margin-top: 87px;
+}
+
+.sub-footer{
+   display: flex;
+   gap: 10px;
+}
+
+.footer-section{
+    border: 2px solid black;
+    margin-top: 60px;
+}
+
+.footer-section img{
+ height: 300px;
+}
+.f2{
+    border: 2px solid black;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    left: 400px;
+    top: 1050px;
+}
+
+.f2 button{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+
